@@ -1,0 +1,86 @@
+name: Update Readme Stats
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'data/**'  # Ignore changes to data directory
+  schedule:
+    - cron: '0 17 * * *'  # Run daily at 5:00 PM UTC
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  update_stats:
+    runs-on: ubuntu-latest
+    # Skip if the push was from github-actions bot
+    if: github.actor != 'github-actions[bot]'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensure full history for accurate commits
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'  # Add npm cache for faster installations
+                   
+      - name: Install dependencies
+        run: |
+          echo "Installing dependencies..."
+          npm ci
+          echo "Dependencies installed successfully."
+        
+      - name: Generate Stats
+        run: |
+          echo "Starting stats generation..."
+          node src/index.js
+          echo "Stats generation completed."
+        env:
+          WAKAPI_TOKEN: ${{ secrets.WAKAPI_TOKEN }}
+          WAKAPI_USERNAME: ${{ secrets.WAKAPI_USERNAME }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+
+      - name: Setup Git Configuration
+        run: |
+          echo "Configuring Git..."
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          echo "Git configured."
+
+      - name: Backup Current Data Directory
+        run: |
+          echo "Backing up current data directory..."
+          mkdir -p /tmp/data-backup
+          cp -r data/* /tmp/data-backup/ || true
+          echo "Backup completed."
+
+      - name: Switch to Data Branch
+        run: |
+          echo "Checking out the 'data' branch..."
+          git checkout --orphan data
+          git rm -rf .
+          git clean -fdx
+          echo "Switched to 'data' branch."
+
+      - name: Restore Data Directory
+        run: |
+          echo "Restoring data from backup..."
+          mkdir -p data
+          cp -r /tmp/data-backup/* data/ || true
+          echo "Data restoration completed."
+
+      - name: Commit and Push Changes
+        run: |
+          echo "Adding data directory to Git..."
+          git add data/
+          echo "Committing changes..."
+          git commit -m "Update stats for ${{ github.run_id }}" || {
+            echo "No changes to commit."
+            exit 0
+          }
+          echo "Pushing changes to 'data' branch..."
+          git push origin data --force
+          echo "Changes pushed successfully."
