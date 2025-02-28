@@ -1,0 +1,696 @@
+{
+  "publicRepos": 5,
+  "followers": 1,
+  "following": 2,
+  "totalStars": 1,
+  "totalForks": 0,
+  "totalPRs": 6,
+  "totalIssues": 16,
+  "contributions": {
+    "total": 144,
+    "totalCommits": 106,
+    "byYear": {
+      "2021": {
+        "total": 1,
+        "commits": 0
+      },
+      "2022": {
+        "total": 28,
+        "commits": 26
+      },
+      "2023": {
+        "total": 16,
+        "commits": 13
+      },
+      "2024": {
+        "total": 95,
+        "commits": 65
+      },
+      "2025": {
+        "total": 4,
+        "commits": 2
+      }
+    }
+  },
+  "createdAt": "2021-09-17T14:43:26Z",
+  "topRepositories": [
+    {
+      "name": "nundinir/nundinir",
+      "stars": 1,
+      "forks": 0,
+      "description": null,
+      "url": "https://github.com/nundinir/nundinir",
+      "combinedScore": 1,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 2,
+          "totalCloners": 2
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 2,
+          "totalCloners": 2
+        },
+        "2025-02-19": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-21": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 2,
+          "totalCloners": 2
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 2,
+          "totalCloners": 2
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 3,
+          "totalCloners": 3
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 2,
+          "totalCloners": 2
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    },
+    {
+      "name": "nundinir/skill-issues",
+      "stars": 0,
+      "forks": 0,
+      "description": "Leveling up on creating issues. Improving my collaborative workflow",
+      "url": "https://github.com/nundinir/skill-issues",
+      "combinedScore": 0,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-19": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-21": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    },
+    {
+      "name": "nundinir/opensourceleg",
+      "stars": 0,
+      "forks": 0,
+      "description": "An open-source software library for numerical computation, data acquisition, and control of lower-limb robotic prostheses.",
+      "url": "https://github.com/nundinir/opensourceleg",
+      "combinedScore": 0,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-19": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-21": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    },
+    {
+      "name": "nundinir/neurobionicspi---vickrey",
+      "stars": 0,
+      "forks": 0,
+      "description": "Builds a custom Raspberry Pi image for robotics",
+      "url": "https://github.com/nundinir/neurobionicspi---vickrey",
+      "combinedScore": 0,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-19": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-21": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    },
+    {
+      "name": "nundinir/nundinir.github.io",
+      "stars": 0,
+      "forks": 0,
+      "description": null,
+      "url": "https://github.com/nundinir/nundinir.github.io",
+      "combinedScore": 0,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-19": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-21": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    },
+    {
+      "name": "neurobionics/ViconProcessing",
+      "stars": 0,
+      "forks": 0,
+      "description": "Scripts parse vicon data provided by users (.mat) into segmented strides and extract various biomechanical descriptors.",
+      "url": "https://github.com/neurobionics/ViconProcessing",
+      "combinedScore": 0,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-19": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-21": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    },
+    {
+      "name": "neurobionics/Exoboot-Controller-VAS",
+      "stars": 0,
+      "forks": 0,
+      "description": null,
+      "url": "https://github.com/neurobionics/Exoboot-Controller-VAS",
+      "combinedScore": 0,
+      "traffic": {
+        "2025-02-15": {
+          "totalViews": 1,
+          "totalVisitors": 1,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-16": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-17": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-18": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-19": {
+          "totalViews": 12,
+          "totalVisitors": 2,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-20": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-21": {
+          "totalViews": 8,
+          "totalVisitors": 1,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-22": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-23": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-24": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-25": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-26": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        },
+        "2025-02-27": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 1,
+          "totalCloners": 1
+        },
+        "2025-02-28": {
+          "totalViews": 0,
+          "totalVisitors": 0,
+          "totalClones": 0,
+          "totalCloners": 0
+        }
+      }
+    }
+  ]
+}
